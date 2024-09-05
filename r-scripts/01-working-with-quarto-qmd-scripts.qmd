@@ -84,6 +84,15 @@ as a block of code by using the small green arrow at the top right.
 ```{r, message = FALSE, warning = FALSE}
 #| label: fig-histogram
 #| fig-cap: Histogram of 100 random values from a normal distribution with 0 mean and 1 standard deviation
+#define a variable A and assign a variable 5 to it
+A<-5
+# same as variable B
+B<-10
+#calculate the sum of A and B and call it c
+C<-A+B
+# print the results
+# print(C)
+
 
 library(tidyverse)
 # set the seed of the random number generator (gives same result)
